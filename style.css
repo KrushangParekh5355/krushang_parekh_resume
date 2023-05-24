@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cards{
+    width: 70%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.image img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.des{
+    text-align: center;
+
+}
+
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: 1.5s;
+    
+}
